@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.change-container-color {
+  text-align: center;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark-container-background {
+  background-color: #000000;
+}
+.light-container-background {
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.light-text {
+  color: #ffffff;
+}
+.dark-text {
+  color: #000000;
+}
+.btn-styling {
+  color: #000000;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
